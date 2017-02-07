@@ -1,0 +1,83 @@
+<resources>
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="layout_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="picture">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+    </style>
+
+    <style name="croatia" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:paddingLeft">@dimen/activity_padding</item>
+        <item name="android:paddingRight">@dimen/activity_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="krapanj" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/primary_light</item>
+        <item name="android:paddingLeft">@dimen/activity_padding</item>
+        <item name="android:paddingRight">@dimen/activity_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/croatia</item>
+        <item name="android:background">@color/primary</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="alt_lbl" parent="@android:style/TextAppearance">
+        <item name="android:paddingLeft">@dimen/activity_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/feel_lbl</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="feel_lbl" parent="@android:style/TextAppearance">
+        <item name="android:paddingLeft">@dimen/activity_padding</item>
+        <item name="android:paddingBottom">@dimen/activity_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/accent</item>
+    </style>
+
+    <style name="meters" parent="@android:style/TextAppearance">
+        <item name="android:paddingRight">@dimen/activity_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_above">@id/feel</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_light</item>
+    </style>
+
+    <style name="feel" parent="@android:style/TextAppearance">
+        <item name="android:paddingRight">@dimen/activity_padding</item>
+        <item name="android:paddingBottom">@dimen/activity_padding</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/primary_light</item>
+    </style>
+
+</resources>

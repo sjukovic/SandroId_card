@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SandroId_card</string>
+    <string name="krapanj">Krapanj Island</string>
+    <string name="croatia">Croatia</string>
+    <string name="alt_lbl">Altitude:</string>
+    <string name="feel_lbl">Feeling:</string>
+    <string name="meters">0 m</string>
+    <string name="feel">Heavenly</string>
+</resources>
