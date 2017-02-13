@@ -41,35 +41,36 @@
 
     <style name="alt_lbl" parent="@android:style/TextAppearance">
         <item name="android:paddingLeft">@dimen/activity_padding</item>
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingBottom">@dimen/activity_padding</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_above">@id/feel_lbl</item>
         <item name="android:textSize">@dimen/text_size_lbl</item>
         <item name="android:textColor">@color/accent</item>
-        <item name="android:background">@color/txt_background</item>
+        <item name="android:background">@color/txt_background1</item>
     </style>
 
     <style name="feel_lbl" parent="@android:style/TextAppearance">
         <item name="android:paddingLeft">@dimen/activity_padding</item>
         <item name="android:paddingBottom">@dimen/activity_padding</item>
-        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_alignParentBottom">true</item>
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:textSize">@dimen/text_size_lbl</item>
         <item name="android:textColor">@color/accent</item>
-        <item name="android:background">@color/txt_background</item>
+        <item name="android:background">@color/txt_background2</item>
     </style>
 
     <style name="meters" parent="@android:style/TextAppearance">
         <item name="android:paddingRight">@dimen/activity_padding</item>
+        <item name="android:paddingBottom">@dimen/activity_padding</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_above">@id/feel</item>
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:textSize">@dimen/text_size_normal</item>
         <item name="android:textColor">@color/primary_light</item>
-        <item name="android:background">@color/txt_background</item>
     </style>
 
     <style name="feel" parent="@android:style/TextAppearance">
@@ -81,7 +82,6 @@
         <item name="android:layout_alignParentRight">true</item>
         <item name="android:textSize">@dimen/text_size_normal</item>
         <item name="android:textColor">@color/primary_light</item>
-        <item name="android:background">@color/txt_background</item>
     </style>
 
 </resources>
