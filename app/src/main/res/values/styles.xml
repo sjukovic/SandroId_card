@@ -47,7 +47,7 @@
         <item name="android:layout_above">@id/feel_lbl</item>
         <item name="android:textSize">@dimen/text_size_lbl</item>
         <item name="android:textColor">@color/accent</item>
-        <item name="android:background">@color/txt_background1</item>
+        <item name="android:background">@drawable/background</item>
     </style>
 
     <style name="feel_lbl" parent="@android:style/TextAppearance">
@@ -59,7 +59,7 @@
         <item name="android:layout_alignParentLeft">true</item>
         <item name="android:textSize">@dimen/text_size_lbl</item>
         <item name="android:textColor">@color/accent</item>
-        <item name="android:background">@color/txt_background2</item>
+        <item name="android:background">@drawable/background</item>
     </style>
 
     <style name="meters" parent="@android:style/TextAppearance">
