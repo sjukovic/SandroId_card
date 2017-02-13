@@ -11,11 +11,13 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:fillViewport="false">
+
     <ImageView
         style="@style/picture"
         android:src="@drawable/krapanj_zalazak"
         android:id="@+id/imageView"
         />
+
     </ScrollView>
     <TextView
         android:id="@+id/feel_lbl"

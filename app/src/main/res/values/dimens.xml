@@ -2,5 +2,11 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    <dimen name="activity_padding">16dp</dimen> <!--my padding-->
+    <dimen name="activity_padding">16dp</dimen><!--my padding-->
+    <!--text dimens [start] - implemented using the https://material.io/guidelines/style/typography.html#typography-styles-->
+    <dimen name="text_size_title">45sp</dimen>
+    <dimen name="text_size_subtitle">34sp</dimen>
+    <dimen name="text_size_lbl">24sp</dimen>
+    <dimen name="text_size_normal">24sp</dimen>
+    <!--text dimens [end]-->
 </resources>
